@@ -7,13 +7,21 @@
   margin: auto;
   margin-top: 30px;
   display: flex;
+  justify-content: center;
   gap: 5px;
 }
-.box {
+.box, #key0 {
   width: 200px;
   height: 200px;
   border: 1px solid gray;
   border-radius: 10px;
-  line-height: 200px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#key1 {
+  width: 200px;
+  height: 200px;
 }
